@@ -1,4 +1,4 @@
-# TecnobitsArquitectura
+# Tecnobits - Arquitectura de Computadores
 
 En este repositorio se encuentra todo el contenido de prácticas equipo Teconobits (subgrupo 2) de la asignatura Arquitectura de Computadores, grupo A1.
 Los integrantes del grupo son:
