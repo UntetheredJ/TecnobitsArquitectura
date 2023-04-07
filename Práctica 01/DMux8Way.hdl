@@ -1,6 +1,6 @@
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
-// by Nisan and Schocken, MIT Press.
+// by Nisan and Schocken,  MIT Press.
 // File name: projects/01/DMux8Way.hdl
 
 /**
@@ -12,17 +12,16 @@
  */
 
 CHIP DMux8Way {
-    IN in, sel[3];
-    OUT a, b, c, d, e, f, g, h;
+    IN in,  sel[3];
+    OUT a,  b,  c,  d,  e,  f,  g,  h;
 
     PARTS:
-    DMux(in=in,sel=sel[2],a=ao,b=bo);
-
-	DMux(in=ao,sel=sel[1],a=aoo,b=boo);
-	DMux(in=bo,sel=sel[1],a=coo,b=doo);
-
-	DMux(in=aoo,sel=sel[0],a=a,b=b);
-	DMux(in=boo,sel=sel[0],a=c,b=d);
-	DMux(in=coo,sel=sel[0],a=e,b=f);
-	DMux(in=doo,sel=sel[0],a=g,b=h);
+	// Put your code here:
+    DMux(in = in, sel = sel[2], a = ao, b = bo);
+	DMux(in = ao, sel = sel[1], a = aoo, b = boo);
+	DMux(in = bo, sel = sel[1], a = coo, b = doo);
+	DMux(in = aoo, sel = sel[0], a = a, b = b);
+	DMux(in = boo, sel = sel[0], a = c, b = d);
+	DMux(in = coo, sel = sel[0], a = e, b = f);
+	DMux(in = doo, sel = sel[0], a = g, b = h);
 }
