@@ -1,4 +1,4 @@
-# Tecnobits - Arquitectura de Computadores
+# Tecnobits - Arquitectura de Computadores, 2023-1
 
 En este repositorio se encuentra todo el contenido de prácticas equipo Teconobits (subgrupo 2) de la asignatura Arquitectura de Computadores, grupo A1, 2023-1.
 Los integrantes del grupo son:
